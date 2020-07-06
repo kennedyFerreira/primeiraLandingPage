@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../../fontes/Open_Sans/OpenSans-Light.ttf);
+}
+
+.cabecalho {
+    background-color: rgb(29, 29, 53);
+} 
+
+.cabecalho img {
+    width: 26%;
+    margin: 1%;
+    border-radius: 10px 10px 30px 10px;
+}
+
+.corpo {
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50%;
+}
+
+.observacoes {
+    float: left;
+    font-family: 'Open Sans';
+    font-weight: 100;
+    width: 40%;
+    margin: 10% 8% ;
+    background-color: rgba(69, 69, 126, 0.267);
+    border-radius: 10px 10px 50px 10px;
+    font-size: 100%;
+    color: rgba(255, 255, 255, 0.76);
+}
+
+.observacoes ul li {
+    list-style-position: inside;
+    margin: 1% 0;
+    padding: 1%;
+}
+
+.formulario {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.226);
+    width: 30%;
+    height: 100%;
+    margin: 0 4%;
+    outline: rgba(92, 92, 92, 0.534) solid 20px;
+}
+
+.formulario form {
+    margin: 2% 10%;
+}
+
+.formulario p {
+    font-family: 'Open Sans';
+    font-size: 100%;
+    color: rgba(255, 255, 255, 0.76);
+    margin-top: 10%;
+}
+
+.clear {
+    clear: both;
+}
+
+input[type=text] {
+    display: block;
+    width: 80%;
+    height: 35px;
+    font-family: 'Open Sans';
+    font-size: 100%;
+    color: rgba(44, 44, 44, 0.76);
+}
+
+input[type=button] {
+    display: block;
+    background-color: rgb(60, 60, 114);
+    width: 50%;
+    height: 20%;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Open Sans';
+    font-size: 100%;
+    padding: 5%;
+    margin: 2% 25%;
+}
+
+.comentario {
+    font-family: 'Open Sans';
+    font-size: 100%;
+    background-color: rgba(236, 236, 236, 0.568);
+    padding: 5% 14%;
+    height: 380px;
+    box-sizing: border-box;
+}
+
+.comentario h2 {
+    text-align: center;
+    padding: 5%;
+}
+
+.comentario p {
+    text-align: justify;
+}
+
+.comentario img {
+    display: block;
+    margin: 4% auto;
+}
+
+.rodape {
+    margin: 100px 50px;
+    font-size: 18px;
+    font-family: 'Open Sans';
+    text-align: center;
+}
+
+.rodape h2 {
+    font-size: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.rodape div {
+    display: inline-block;
+    width: 25%;
+    margin: 4% ;
+}
+
+.rodape div p {
+    text-align: justify;
+}
+
+footer {
+    border-top: 3px solid gray ;
+    width: 90%;
+    font-size: 100%;
+    text-align: center;
+    font-family: 'Open Sans';
+    padding: 2%;
+    margin: auto;
+}
+    
